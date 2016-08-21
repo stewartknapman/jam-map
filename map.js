@@ -163,19 +163,19 @@ var Map = function () {
   this.map_options = {
     //center: new google.maps.LatLng(-41.27157,173.281598), <-- this gets adder per each maps location data
     zoom: 11,
-    zoomControl: false,
+    zoomControl: true,
     zoomControlOptions: {
       style: google.maps.ZoomControlStyle.SMALL,
     },
     disableDoubleClickZoom: true,
-    mapTypeControl: false,
+    mapTypeControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
     },
-    scaleControl: false,
+    scaleControl: true,
     scrollwheel: true,
-    panControl: false,
-    streetViewControl: false,
+    panControl: true,
+    streetViewControl: true,
     draggable : true,
     overviewMapControl: true,
     overviewMapControlOptions: {
